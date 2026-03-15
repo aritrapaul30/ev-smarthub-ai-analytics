@@ -18,6 +18,7 @@ EV SmartHub transforms passive EV charging stations into intelligent decision hu
 
 ### 2️⃣ 📦 Data Loading
 > Two source datasets from Kaggle
+
 | Dataset | Source |
 |---|---|
 | ⚡ EV Charging Patterns | [Kaggle: ev_charging_patterns.csv](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns) |
