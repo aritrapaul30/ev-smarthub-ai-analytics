@@ -16,18 +16,13 @@ EV SmartHub transforms passive EV charging stations into intelligent decision hu
 
 ---
 
-### 2️⃣ 📦 Data Loading
+### 2️⃣ 📦 Data Description
 > Two source datasets from Kaggle
 
-| Dataset | Source |
-|---|---|
-| ⚡ EV Charging Patterns | [Kaggle: ev_charging_patterns.csv](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns) |
-| 🔧 Battery Maintenance Logs | [Kaggle: EV_Predictive_Maintenance_Dataset_15min.csv](https://www.kaggle.com/datasets/datasetengineer/eviot-predictivemaint-dataset) |
-
-| Dataset | Records | Key Variables | Source |
-|---|---|---|---|
-| ⚡ EV Charging Patterns | Large CSV | SOC, Charging Rate, Duration, Cost, Hour | [Kaggle: ev_charging_patterns.csv](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns) |
-| 🔧 Battery Maintenance Logs | ~175,000 rows | Charge Cycles, Temperature, RUL | [Kaggle: EV_Predictive_Maintenance_Dataset_15min.csv](https://www.kaggle.com/datasets/datasetengineer/eviot-predictivemaint-dataset) |
+| Dataset | Veriables | Observations | Key Variables | Source |
+|---|---|---|---|---|
+| ⚡ EV Charging Patterns | 20 Columns | 1320  rows | SOC, Charging Rate, Duration, Cost, Hour | [ev_charging_patterns.csv](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns) |
+| 🔧 Battery Maintenance Logs | 30 Columns | 175,393 rows | Charge Cycles, Temperature, RUL | [EV_Predictive_Maintenance_Dataset_15min.csv](https://www.kaggle.com/datasets/datasetengineer/eviot-predictivemaint-dataset) |
 
 
 > ⚠️ **Critical Finding:** Both raw datasets produced **negative R²** baselines —
