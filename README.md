@@ -24,10 +24,11 @@ EV SmartHub transforms passive EV charging stations into intelligent decision hu
 | ⚡ EV Charging Patterns | [Kaggle: ev_charging_patterns.csv](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns) |
 | 🔧 Battery Maintenance Logs | [Kaggle: EV_Predictive_Maintenance_Dataset_15min.csv](https://www.kaggle.com/datasets/datasetengineer/eviot-predictivemaint-dataset) |
 
-| Dataset | Records | Key Variables |
-|---|---|---|
-| ⚡ EV Charging Patterns | Large CSV | SOC, Charging Rate, Duration, Cost, Hour |
-| 🔧 Battery Maintenance Logs | ~175,000 rows | Charge Cycles, Temperature, RUL |
+| Dataset | Records | Key Variables | Source |
+|---|---|---|---|
+| ⚡ EV Charging Patterns | Large CSV | SOC, Charging Rate, Duration, Cost, Hour | [Kaggle: ev_charging_patterns.csv](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns) |
+| 🔧 Battery Maintenance Logs | ~175,000 rows | Charge Cycles, Temperature, RUL | [Kaggle: EV_Predictive_Maintenance_Dataset_15min.csv](https://www.kaggle.com/datasets/datasetengineer/eviot-predictivemaint-dataset) |
+
 
 > ⚠️ **Critical Finding:** Both raw datasets produced **negative R²** baselines —
 > meaning models trained on raw labels performed *worse than just guessing the mean*.
