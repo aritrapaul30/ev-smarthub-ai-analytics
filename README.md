@@ -31,7 +31,7 @@ EV SmartHub transforms passive EV charging stations into intelligent decision hu
 
 ---
 
-### 3️⃣ 🔬 Phase 2 — Baseline Diagnostic Pass
+### 3️⃣ 🔬 Baseline Diagnostic Pass
 > Intentionally training on raw data to prove the data problem
 
 - 📉 `Charging_Cost` had **zero correlation** with energy consumed
